@@ -1,0 +1,353 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo navigabile per confrontare i consumi mensili degli edifici, individuare variazioni e registrare nuove rilevazioni. Dati ed enti sono interamente inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "quadro-consumi",
+      "title": "Quadro consumi",
+      "description": "Dashboard con andamento mensile dei consumi energetici rilevati negli edifici inventati. I valori della tabella possono essere filtrati per edificio, periodo e vettore energetico.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "18.420 kWh"
+        },
+        {
+          "label": "Variazione sul mese precedente",
+          "value": "−4,8%"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "12"
+        },
+        {
+          "label": "Rilevazioni registrate",
+          "value": "36"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Vettore energetico",
+        "Consumo",
+        "Variazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Gennaio",
+          "Elettricità",
+          "1.820 kWh",
+          "+2,1%",
+          "Verificato"
+        ],
+        [
+          "Palazzo Lumo",
+          "Febbraio",
+          "Elettricità",
+          "1.710 kWh",
+          "−6,0%",
+          "Verificato"
+        ],
+        [
+          "Palazzo Lumo",
+          "Marzo",
+          "Elettricità",
+          "1.640 kWh",
+          "−4,1%",
+          "Verificato"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Gennaio",
+          "Gas",
+          "2.240 kWh",
+          "+3,4%",
+          "Verificato"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Febbraio",
+          "Gas",
+          "2.080 kWh",
+          "−7,1%",
+          "Verificato"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Marzo",
+          "Gas",
+          "1.960 kWh",
+          "−5,8%",
+          "Verificato"
+        ],
+        [
+          "Centro Vela",
+          "Gennaio",
+          "Elettricità",
+          "1.480 kWh",
+          "+1,2%",
+          "Verificato"
+        ],
+        [
+          "Centro Vela",
+          "Febbraio",
+          "Elettricità",
+          "1.430 kWh",
+          "−3,4%",
+          "Verificato"
+        ],
+        [
+          "Centro Vela",
+          "Marzo",
+          "Elettricità",
+          "1.390 kWh",
+          "−2,8%",
+          "Verificato"
+        ],
+        [
+          "Archivio Quill",
+          "Gennaio",
+          "Gas",
+          "1.760 kWh",
+          "+4,0%",
+          "Da verificare"
+        ],
+        [
+          "Archivio Quill",
+          "Febbraio",
+          "Gas",
+          "1.690 kWh",
+          "−4,0%",
+          "Verificato"
+        ],
+        [
+          "Archivio Quill",
+          "Marzo",
+          "Gas",
+          "1.540 kWh",
+          "−8,9%",
+          "Verificato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni",
+      "description": "Consulta e filtra le letture mensili per edificio, mese, vettore energetico o stato. Registra una nuova rilevazione tramite il modulo.",
+      "metrics": [
+        {
+          "label": "Letture in attesa",
+          "value": "3"
+        },
+        {
+          "label": "Ultimo aggiornamento",
+          "value": "Marzo"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Vettore energetico",
+        "Consumo",
+        "Variazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Gennaio",
+          "Elettricità",
+          "1.820 kWh",
+          "+2,1%",
+          "Verificato"
+        ],
+        [
+          "Palazzo Lumo",
+          "Febbraio",
+          "Elettricità",
+          "1.710 kWh",
+          "−6,0%",
+          "Verificato"
+        ],
+        [
+          "Palazzo Lumo",
+          "Marzo",
+          "Elettricità",
+          "1.640 kWh",
+          "−4,1%",
+          "Verificato"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Gennaio",
+          "Gas",
+          "2.240 kWh",
+          "+3,4%",
+          "Verificato"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Febbraio",
+          "Gas",
+          "2.080 kWh",
+          "−7,1%",
+          "Verificato"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Marzo",
+          "Gas",
+          "1.960 kWh",
+          "−5,8%",
+          "Verificato"
+        ],
+        [
+          "Centro Vela",
+          "Gennaio",
+          "Elettricità",
+          "1.480 kWh",
+          "+1,2%",
+          "Verificato"
+        ],
+        [
+          "Centro Vela",
+          "Febbraio",
+          "Elettricità",
+          "1.430 kWh",
+          "−3,4%",
+          "Verificato"
+        ],
+        [
+          "Centro Vela",
+          "Marzo",
+          "Elettricità",
+          "1.390 kWh",
+          "−2,8%",
+          "Verificato"
+        ],
+        [
+          "Archivio Quill",
+          "Gennaio",
+          "Gas",
+          "1.760 kWh",
+          "+4,0%",
+          "Da verificare"
+        ],
+        [
+          "Archivio Quill",
+          "Febbraio",
+          "Gas",
+          "1.690 kWh",
+          "−4,0%",
+          "Verificato"
+        ],
+        [
+          "Archivio Quill",
+          "Marzo",
+          "Gas",
+          "1.540 kWh",
+          "−8,9%",
+          "Verificato"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Mese",
+        "Vettore energetico",
+        "Consumo",
+        "Variazione",
+        "Stato"
+      ]
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici",
+      "description": "Elenco degli edifici monitorati e dei rispettivi dati energetici più recenti. Filtra per edificio o vettore energetico.",
+      "metrics": [
+        {
+          "label": "Edifici attivi",
+          "value": "12"
+        },
+        {
+          "label": "Vettori rilevati",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Vettore energetico",
+        "Ultimo mese rilevato",
+        "Consumo recente",
+        "Stato monitoraggio"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Elettricità",
+          "Marzo",
+          "1.640 kWh",
+          "Attivo"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Gas",
+          "Marzo",
+          "1.960 kWh",
+          "Attivo"
+        ],
+        [
+          "Centro Vela",
+          "Elettricità",
+          "Marzo",
+          "1.390 kWh",
+          "Attivo"
+        ],
+        [
+          "Archivio Quill",
+          "Gas",
+          "Marzo",
+          "1.540 kWh",
+          "Attivo"
+        ],
+        [
+          "Sala Orbia",
+          "Teleriscaldamento",
+          "Marzo",
+          "2.110 kWh",
+          "Attivo"
+        ],
+        [
+          "Polo Miral",
+          "Elettricità",
+          "Marzo",
+          "1.270 kWh",
+          "Attivo"
+        ],
+        [
+          "Casa Teral",
+          "Gas",
+          "Marzo",
+          "1.830 kWh",
+          "Attivo"
+        ],
+        [
+          "Officina Selva",
+          "Elettricità",
+          "Marzo",
+          "980 kWh",
+          "Da verificare"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Vettore energetico",
+        "Ultimo mese rilevato",
+        "Consumo recente",
+        "Stato monitoraggio"
+      ]
+    }
+  ]
+}
